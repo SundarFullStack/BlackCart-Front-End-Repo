@@ -1,0 +1,35 @@
+.order-container-cover {
+  margin: 10px;
+}
+
+.order-search-bar-cover {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.order-search-input-style {
+  outline: none;
+  border: none;
+  margin: 10px 2px;
+  width: 100%;
+}
+
+.Cart-Name{
+  font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+}
+.order-search-form-control {
+  margin: 20px 10px;
+  border: 1px solid var(--cart-border-color);
+  border-radius: 10px;
+  box-shadow: var(--cart-box-shadow);
+}
+
+@media (max-width:600px){
+  .Cart-Name{
+    font-weight: bold;
+      padding: 15px;
+      font-size: 17px;
+  }
+}

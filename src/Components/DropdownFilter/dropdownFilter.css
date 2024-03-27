@@ -1,0 +1,60 @@
+
+/* Search Bar styles */
+
+.search-bar-cover {
+  margin: 5px;
+  width: 100%;
+}
+
+.search-form-control {
+  border: none;
+  border-radius: 70px;
+  box-shadow: var(--cart-box-shadow);
+  position: relative;
+  display: inline-block;
+}
+
+.search-input-style {
+  outline: none;
+  border: none;
+  margin: 10px 2px;
+  width: 100%;
+}
+
+/* Dropdown Styles */
+
+.dropdown-menu {
+  width: -webkit-fill-available;
+  margin-top: 3px;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-top: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 70vh;
+}
+
+.dropdown-list-cover {
+  display: math;
+  overflow: scroll;
+}
+
+.dropdown-img {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.dropdown-filter-content {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.dropdown-list:hover {
+  background-color: var(--cart-item-btn-bg) !important;
+}

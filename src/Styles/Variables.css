@@ -1,0 +1,12 @@
+#root{
+  --cart-header-bg-color:rgba(248,249,250);
+  --cart-bg-color:rgba(33,37,41);
+  --cart-text-color:rgba(255,255,255);
+  --cart-sub-color:hsla(0,0%,100%,.5);
+  --cart-font-color:rgb(105, 105, 105);
+  --cart-box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --cart-border-color:hsl(0deg 7.27% 85.56% / 50%);
+  --cart-btn-bg-color:gray;
+  --cart-item-btn-bg:rgb(175 171 171);
+  --cart-card-bg-color:white;
+}

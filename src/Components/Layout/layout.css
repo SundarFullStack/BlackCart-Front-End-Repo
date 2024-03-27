@@ -1,0 +1,19 @@
+.product-list-container {
+  background-color: var(--cart-card-bg-color);
+  box-shadow: var(--cart-box-shadow);
+  border: 1px solid var(--cart-border-color);
+  padding: 20px;
+  margin: 20px;
+}
+
+.product-list-header hr {
+  border: 2px solid var(--cart-font-color);
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .product-list-container {
+    padding: 10px;
+    margin: 10px;
+  }
+}

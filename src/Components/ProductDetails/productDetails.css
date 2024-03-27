@@ -1,0 +1,22 @@
+.PD-cart-item-border-cover {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--cart-border-color);
+  background-color: var(--cart-card-bg-color);
+  margin: 10px;
+  box-shadow: var(--cart-box-shadow);
+}
+
+.Cart-Name{
+  font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+}
+
+@media (max-width:600px){
+  .Cart-Name{
+    font-weight: bold;
+      padding: 15px;
+      font-size: 17px;
+  }
+}

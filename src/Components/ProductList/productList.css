@@ -1,0 +1,27 @@
+.prod_img {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.prodName {
+  font-weight: 700;
+  margin: 50px 10px 10px 10px;
+}
+
+.img-cover img {
+  background-image: none;
+}
+.prodPrice {
+  margin: 10px 10px 10px 10px;
+  color: green;
+}
+.prodCompany {
+  margin: 10px 10px 10px 10px;
+}
+
+.product-list-cover {
+  padding: 10px;
+}
+.product-list-cover:hover {
+  box-shadow: var(--cart-box-shadow);
+}

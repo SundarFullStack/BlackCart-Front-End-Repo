@@ -1,0 +1,22 @@
+.Content-container {
+  background-color: var(--cart-bg-color);
+  color: var(--cart-text-color);
+  padding: 40px 0px 30px 0px;
+}
+.content-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0px;
+}
+
+.content-sub-title {
+  font-weight: 700;
+  margin: 10px;
+}
+
+.title-content {
+  font-weight: 600;
+  color: #7e7979;
+  font-size: 20px;
+  margin-top: 10px;
+}

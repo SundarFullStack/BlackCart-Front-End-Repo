@@ -1,0 +1,27 @@
+.custom-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-left{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+.custom-right{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+.load-icon-cover{
+    margin-top:17%;
+}
+
+.load-icon{
+    color:var(--cart-font-color)
+}

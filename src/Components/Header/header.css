@@ -1,0 +1,151 @@
+/* Navbar styles */
+
+.navbar-container {
+  padding: 10px;
+  background: var(--cart-header-bg-color);
+  height: auto;
+  width: 100%;
+}
+
+
+/* Logo Styles */
+
+.logo-img {
+  border-radius: 50%;
+  background: var(--cart-header-bg-color);
+  width: auto;
+  height: 70px;
+}
+.logo-content {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/* Logout Button */
+
+.header-logout-btn-cover {
+  padding: 15px 10px 10px 80px;
+}
+.header-logout-btn {
+  font-size: 25px;
+  color: black;
+}
+
+.header-logout-btn:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Search Bar Styles */
+/* .search-bar-cover {
+  margin: 5px;
+  width:100%
+}
+
+.search-input-style {
+  outline: none;
+  border: none;
+  margin: 10px 2px;
+}
+
+.search-form-control {
+  border: none;
+  border-radius: 70px;
+  box-shadow: var(--cart-box-shadow);
+} */
+
+/* Login Dropdown */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #f8f9fa;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  color: var(--cart-font-color);
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-top: none;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu ul li {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dropdown-menu ul li:hover {
+  background-color: #f8f9fa;
+}
+
+/* Icons */
+
+.cart-icon {
+  font-size: 20px;
+  color: var(--cart-bg-color);
+  margin-right: 8px;
+}
+
+@media (max-width: 800px) {
+  .logo-img {
+    font-size: 45px;
+  }
+  .logo-content {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-logo-container {
+    display: none !important;
+  }
+  .search-input-style {
+    margin: 5px 2px;
+  }
+  .header-logout-btn-cover {
+    padding: 0px;
+  }
+  .dropdown-toggle {
+    padding: 0px;
+    font-size: 17px;
+  }
+  .search-cont {
+    margin-right: 20px;
+  }
+  .login-cont {
+    margin-right: 20px;
+  }
+  .logout-cont {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search-cont {
+    margin-right: 0px;
+  }
+  .login-cont {
+    margin-right: 0px;
+  }
+  .logout-cont {
+    margin-right: 0px;
+  }
+}
